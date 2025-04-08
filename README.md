@@ -101,7 +101,11 @@ The AI is optimized to respond within a **3-second time limit** by:
 
 ## ✅ **Example Usage**
 
-1. **Compile the source files:**
+1. **Start the Game Server**  
+   Launch the `BoardGame.exe` file.  
+   This executable acts as the game server and **must be running** before starting the client.
+
+2. **Compile the source files:**
 ```bash
    javac src/*.java
   java -cp src Client 127.0.0.1 12345
